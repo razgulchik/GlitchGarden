@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    [SerializeField] float speed = 1;
-    [SerializeField] float damage;
+    [SerializeField] float speed = 1f;
+    [SerializeField] float damage = 1f;
 
     // Update is called once per frame
     void Update()
@@ -17,7 +17,7 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.tag == "Attacker")
         {
-            collision.gameObject.GetComponent<Health>().DealDamage(damage);
+            collision.GetComponent<Health>().DealDamage(damage);
             Destroy(gameObject);
         }
         
