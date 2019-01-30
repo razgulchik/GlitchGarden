@@ -22,6 +22,8 @@ public class Health : MonoBehaviour
 
     private void TriggerDeathVFX()
     {
-        Instantiate(deathVFX, transform.position, transform.rotation);
+        if (!deathVFX) { return; }
+        GameObject deathVFXObject = Instantiate(deathVFX, transform.position, transform.rotation);
+        Destroy(deathVFXObject, 1);
     }
 }
