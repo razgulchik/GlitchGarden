@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8297031929323329308}
   - component: {fileID: 8297031929323329307}
-  - component: {fileID: 8297031929323329306}
   - component: {fileID: 8297031929323329305}
   m_Layer: 0
   m_Name: Body
@@ -82,25 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &8297031929323329306
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8297031929323329304}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 978a983ae3784ae4596f8338d5173eea, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &8297031929323329305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +105,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8297031930730687566}
+  - component: {fileID: 5685988139010672220}
   - component: {fileID: 9116745061662266747}
+  - component: {fileID: 5533673544156853865}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -148,6 +130,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &5685988139010672220
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297031930730687565}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 978a983ae3784ae4596f8338d5173eea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &9116745061662266747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,6 +162,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starsCost: 100
+--- !u!114 &5533673544156853865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297031930730687565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6383a295df485864080e4e62127a0c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gun: {fileID: 8297031931034701678}
+  projectile: {fileID: 3140364126743321381, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+    type: 3}
 --- !u!1 &8297031931034701678
 GameObject:
   m_ObjectHideFlags: 0
