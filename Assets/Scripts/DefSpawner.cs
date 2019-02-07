@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DefSpawner : MonoBehaviour
 {
-    [SerializeField] Defender defender;
+    Defender defender;
 
     private void OnMouseDown()
     {
@@ -29,7 +29,9 @@ public class DefSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 positionOfDefender)
     {
+        if (!defender) { return; }
         Defender newDefender = Instantiate(defender, positionOfDefender, Quaternion.identity) as Defender;
+
     }
 
     public void ChooseDefender(Defender defenderPrefab)
