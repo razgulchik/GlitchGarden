@@ -181,6 +181,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 980ddc740f1c82b4e89f7cf8d42a7df3, type: 3}
+--- !u!1001 &63597059
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3140364126743321381, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_Name
+      value: Zucchini
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804803472402579339, guid: af544ff8c2da4644d9e1708f2ce2dea0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af544ff8c2da4644d9e1708f2ce2dea0, type: 3}
 --- !u!1 &80241691
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,8 +554,9 @@ GameObject:
   - component: {fileID: 889658912}
   - component: {fileID: 889658914}
   - component: {fileID: 889658913}
+  - component: {fileID: 889658915}
   m_Layer: 5
-  m_Name: Text
+  m_Name: StarsAmountText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -533,10 +603,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8afb10ff48caeee4bbfb4aef432002f8, type: 3}
-    m_FontSize: 75
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 7
+    m_MinSize: 1
     m_MaxSize: 108
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -544,7 +614,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 9999
 --- !u!222 &889658914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -553,6 +623,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889658911}
   m_CullTransparentMesh: 0
+--- !u!114 &889658915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889658911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648436783903e7e47aabb887172bfddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stars: 100
 --- !u!1 &1019689761
 GameObject:
   m_ObjectHideFlags: 0

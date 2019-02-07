@@ -31,6 +31,7 @@ public class DefSpawner : MonoBehaviour
     {
         if (!defender) { return; }
         Defender newDefender = Instantiate(defender, positionOfDefender, Quaternion.identity) as Defender;
+
     }
 
     public void ChooseDefender(Defender defenderPrefab)
