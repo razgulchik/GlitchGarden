@@ -9,7 +9,6 @@ public class DefSpawner : MonoBehaviour
     private void OnMouseDown()
     {
         SpawnDefender(PointPositionOfDefender());
-        Debug.Log(PointPositionOfDefender());
     }
 
     private static Vector2 PointPositionOfDefender()
@@ -37,5 +36,11 @@ public class DefSpawner : MonoBehaviour
     public void ChooseDefender(Defender defenderPrefab)
     {
         defender = defenderPrefab;
+    }
+
+    private void AttemptToPlaceDefender(Vector2 mousePositionOnGrid)
+    {
+        var StarDisplay = FindObjectOfType<StarsDisplay>();
+        int defenderCost = defender.GetDefenderCost();
     }
 }
