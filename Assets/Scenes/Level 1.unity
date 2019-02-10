@@ -122,7 +122,7 @@ PrefabInstance:
     - target: {fileID: 1369798945049481180, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
       propertyPath: m_Name
-      value: Spawner (2)
+      value: Spawner 3
       objectReference: {fileID: 0}
     - target: {fileID: 6596677967689945863, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
@@ -635,7 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 648436783903e7e47aabb887172bfddd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stars: 100
+  stars: 200
 --- !u!1 &1019689761
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +885,7 @@ PrefabInstance:
     - target: {fileID: 1369798945049481180, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
       propertyPath: m_Name
-      value: Spawner (3)
+      value: Spawner 4
       objectReference: {fileID: 0}
     - target: {fileID: 6596677967689945863, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
@@ -1237,7 +1237,7 @@ PrefabInstance:
     - target: {fileID: 1369798945049481180, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
       propertyPath: m_Name
-      value: Spawner (1)
+      value: Spawner 2
       objectReference: {fileID: 0}
     - target: {fileID: 6596677967689945863, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
@@ -1337,7 +1337,7 @@ PrefabInstance:
     - target: {fileID: 1369798945049481180, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
       propertyPath: m_Name
-      value: Spawner (4)
+      value: Spawner 5
       objectReference: {fileID: 0}
     - target: {fileID: 6596677967689945863, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
@@ -1406,7 +1406,7 @@ PrefabInstance:
     - target: {fileID: 1369798945049481180, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
       propertyPath: m_Name
-      value: Spawner
+      value: Spawner 1
       objectReference: {fileID: 0}
     - target: {fileID: 6596677967689945863, guid: 980ddc740f1c82b4e89f7cf8d42a7df3,
         type: 3}
