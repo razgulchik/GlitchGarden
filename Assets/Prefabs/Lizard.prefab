@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674410373}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 747603044524295772}
@@ -90,9 +90,9 @@ GameObject:
   - component: {fileID: 747603044524295772}
   - component: {fileID: 747603044524295762}
   - component: {fileID: 1579041080}
-  - component: {fileID: 1579041081}
   - component: {fileID: 747603044524295775}
   - component: {fileID: 830159335993767716}
+  - component: {fileID: 747603044524295764}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Attacker
@@ -155,50 +155,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &1579041081
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 747603044524295763}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.51, y: 1.86}
-    newSize: {x: 0.83, y: 0.88}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.114999995, y: -0.48999998}
-      - {x: -0.24499999, y: -0.5}
-      - {x: -0.345, y: -0.24}
-      - {x: -0.475, y: 0.14999999}
-      - {x: -0.515, y: 0.17}
-      - {x: -0.755, y: 0.17}
-      - {x: -0.85499996, y: 0.03}
-      - {x: -0.92499995, y: -0.11}
-      - {x: -0.92499995, y: -0.21}
-      - {x: -0.73499995, y: -0.34}
-      - {x: -0.805, y: -0.48999998}
-      - {x: -0.885, y: -0.61}
-      - {x: -0.765, y: -0.65}
-      - {x: -0.505, y: -0.63}
-      - {x: -0.39499998, y: -0.72999996}
-      - {x: -0.315, y: -0.72999996}
-      - {x: -0.145, y: -0.63}
-      - {x: -0.074999996, y: -0.57}
-      - {x: -0.074999996, y: -0.52}
 --- !u!114 &747603044524295775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,3 +181,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 2
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
+--- !u!60 &747603044524295764
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747603044524295763}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.55994415, y: 0.50671554}
+      - {x: -0.91106033, y: 0.1357007}
+      - {x: -0.65834045, y: -0.105012536}
+      - {x: -0.7211056, y: -0.39572442}
+      - {x: -0.10547924, y: -0.2357403}
+      - {x: -0.27039146, y: -0.0348202}
+      - {x: -0.4088087, y: 0.14903283}
