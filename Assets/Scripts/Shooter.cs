@@ -8,10 +8,12 @@ public class Shooter : MonoBehaviour
     [SerializeField] GameObject gun;
     [SerializeField] GameObject projectile;
     AttackerSpawner myLaneSpawner;
+    Animator animator;
 
     private void Start()
     {
         SetLaneSpawner();
+        animator = GetComponent<Animator>();
     }
 
     private void SetLaneSpawner()
@@ -35,11 +37,13 @@ public class Shooter : MonoBehaviour
         {
             Debug.Log("pew pew pew");
             // TODO change animation to attack
+            animator.SetBool("IsAttacking", true);
         }
         else
         {
             Debug.Log("Stay still and wait for enimies");
             //TOD change animation to idle
+            animator.SetBool("IsAttacking", false);
         }
     }
 
