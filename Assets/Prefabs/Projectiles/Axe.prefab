@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3075728865888234013}
   - component: {fileID: 3075728865888234014}
   - component: {fileID: 3075728865888234012}
-  - component: {fileID: 3052006281833350739}
+  - component: {fileID: 6779202852061655938}
   m_Layer: 0
   m_Name: Axe
   m_TagString: Untagged
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   damage: 2
---- !u!50 &3052006281833350739
+--- !u!50 &6779202852061655938
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
