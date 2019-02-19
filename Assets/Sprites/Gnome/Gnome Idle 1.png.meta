@@ -1,19 +1,14 @@
 fileFormatVersion: 2
-guid: 5dffdccc34150b84292f8a7fc385f2d4
+guid: a5efe8887c5f729488bb239054312ea4
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Gnome Hop_0
-    21300002: Gnome Hop_1
-    21300004: Gnome Hop_2
-    21300006: Gnome Hop_3
-    21300008: Gnome Hop_4
-    21300010: Gnome Hop_5
-    21300012: Gnome Hop_6
-    21300014: Gnome Hop_7
-    21300016: Gnome Hop_8
-    21300018: Gnome Hop_9
-    21300020: Gnome Hop_10
-    21300022: Gnome Hop_11
+    21300000: Gnome Idle_0
+    21300002: Gnome Idle_1
+    21300004: Gnome Idle_2
+    21300006: Gnome Idle_3
+    21300008: Gnome Idle_4
+    21300010: Gnome Idle_5
+    21300012: Gnome Idle_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -57,7 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 125
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +91,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gnome Hop_0
+      name: Gnome Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -104,19 +99,19 @@ TextureImporter:
         width: 81
         height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5024664aa8c89a841a3c5d6f4a52dce1
+      spriteID: 88db8a2cd41cc4040b07958c81b2dc70
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome Hop_1
+      name: Gnome Idle_1
       rect:
         serializedVersion: 2
         x: 81
@@ -124,19 +119,19 @@ TextureImporter:
         width: 81
         height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8210484800119614ca93c774117aa868
+      spriteID: 0e881ec493cae05439e2ddd17e4cfae9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome Hop_2
+      name: Gnome Idle_2
       rect:
         serializedVersion: 2
         x: 162
@@ -144,19 +139,19 @@ TextureImporter:
         width: 81
         height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6384055c624c2a6498b163699b23b8d5
+      spriteID: 489fe37412a01c045a13f00292c98cc8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome Hop_3
+      name: Gnome Idle_3
       rect:
         serializedVersion: 2
         x: 243
@@ -164,19 +159,19 @@ TextureImporter:
         width: 81
         height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eca68c20cbd9151498c0001ce5e3b7fe
+      spriteID: 4bfa907c20cc1374ea656228ea0af1d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome Hop_4
+      name: Gnome Idle_4
       rect:
         serializedVersion: 2
         x: 324
@@ -184,19 +179,19 @@ TextureImporter:
         width: 81
         height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf3a8409f4f7004449ddc343947af635
+      spriteID: e59121c0f63c85447a5d168fcd0ec7e3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome Hop_5
+      name: Gnome Idle_5
       rect:
         serializedVersion: 2
         x: 405
@@ -204,19 +199,19 @@ TextureImporter:
         width: 81
         height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9cc04b7647b1cd4582a9fd117237bf9
+      spriteID: 8c22271cb21a8a04ab782986a4312437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome Hop_6
+      name: Gnome Idle_6
       rect:
         serializedVersion: 2
         x: 486
@@ -224,113 +219,13 @@ TextureImporter:
         width: 81
         height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fe0b1774023a5345b368258d6aa4a7d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gnome Hop_7
-      rect:
-        serializedVersion: 2
-        x: 567
-        y: 0
-        width: 81
-        height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3af4ee87d9b0b6244afcdac741d4b8e9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gnome Hop_8
-      rect:
-        serializedVersion: 2
-        x: 648
-        y: 0
-        width: 81
-        height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cb157256c731a244ab9c0ee18600091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gnome Hop_9
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 0
-        width: 81
-        height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d159562656eefe94285cbfd971541a4c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gnome Hop_10
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 0
-        width: 81
-        height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b622b350cdadede48abc7da97ffed6de
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gnome Hop_11
-      rect:
-        serializedVersion: 2
-        x: 891
-        y: 0
-        width: 81
-        height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b9b2d6377dc4744aae284faa454a68d
+      spriteID: a9cd2c31fb823d04789020154f5c4187
       vertices: []
       indices: 
       edges: []
@@ -338,7 +233,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 80ee67e7e209a8f4c992efc1e445294e
+    spriteID: 4848d7601eb05c34096cddd4c1908aee
     vertices: []
     indices: 
     edges: []
