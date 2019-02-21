@@ -37,13 +37,13 @@ public class Shooter : MonoBehaviour
         {
             Debug.Log("pew pew pew");
             // TODO change animation to attack
-            animator.SetBool("IsAttacking", true);
+            animator.SetBool("isAttacking", true);
         }
         else
         {
             Debug.Log("Stay still and wait for enimies");
             //TOD change animation to idle
-            animator.SetBool("IsAttacking", false);
+            animator.SetBool("isAttacking", false);
         }
     }
 

@@ -170,6 +170,7 @@ GameObject:
   - component: {fileID: 7147353362282004092}
   - component: {fileID: 6855975434553105038}
   - component: {fileID: 436546017342499642}
+  - component: {fileID: 3271049547750819215}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -225,7 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f05265361dbc62943a257a69d875575a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starsCost: 100
+  starsCost: 50
 --- !u!61 &436546017342499642
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -239,7 +240,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0038864613, y: 0.021375895}
+  m_Offset: {x: 0.0023276806, y: -0.0112473965}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -250,8 +251,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0233192, y: 1.0427518}
+  m_Size: {x: 0.6877675, y: 0.7538047}
   m_EdgeRadius: 0
+--- !u!114 &3271049547750819215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7147353362282003970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3e34adeb5520b4c84e1058779c5eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
 --- !u!1 &7147353363003684696
 GameObject:
   m_ObjectHideFlags: 0

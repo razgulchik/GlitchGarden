@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 9116745061662266747}
   - component: {fileID: 5533673544156853865}
   - component: {fileID: 1072144666}
+  - component: {fileID: 2238445968001578942}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -162,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f05265361dbc62943a257a69d875575a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starsCost: 100
+  starsCost: 50
 --- !u!114 &5533673544156853865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,7 +192,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.017250419}
+  m_Offset: {x: -0.017560065, y: 0.027284741}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -202,8 +203,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0345006, y: 1.0431259}
+  m_Size: {x: 0.83883107, y: 0.87254167}
   m_EdgeRadius: 0
+--- !u!114 &2238445968001578942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297031930730687565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3e34adeb5520b4c84e1058779c5eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
 --- !u!1 &8297031931034701678
 GameObject:
   m_ObjectHideFlags: 0

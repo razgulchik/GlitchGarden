@@ -92,7 +92,8 @@ GameObject:
   - component: {fileID: 1579041080}
   - component: {fileID: 747603044524295775}
   - component: {fileID: 830159335993767716}
-  - component: {fileID: 747603044524295764}
+  - component: {fileID: 6245520800809498779}
+  - component: {fileID: 1864060038053594632}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Attacker
@@ -167,6 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f074204156aa7c14390d9fc37c3612ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkSpeed: 1
 --- !u!114 &830159335993767716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,10 +181,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc3e34adeb5520b4c84e1058779c5eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 3
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
---- !u!60 &747603044524295764
-PolygonCollider2D:
+--- !u!114 &6245520800809498779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747603044524295763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e7e8e6372241a4ea1de68192ee7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1864060038053594632
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -191,10 +205,10 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.55441236, y: 0.014695644}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -204,12 +218,6 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.55994415, y: 0.50671554}
-      - {x: -0.91106033, y: 0.1357007}
-      - {x: -0.65834045, y: -0.105012536}
-      - {x: -0.7211056, y: -0.39572442}
-      - {x: -0.10547924, y: -0.2357403}
-      - {x: -0.27039146, y: -0.0348202}
-      - {x: -0.4088087, y: 0.14903283}
+  serializedVersion: 2
+  m_Size: {x: 0.3335867, y: 0.65318155}
+  m_EdgeRadius: 0
