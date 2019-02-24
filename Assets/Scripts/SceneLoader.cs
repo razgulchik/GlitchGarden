@@ -30,11 +30,13 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
-
-
-    // Update is called once per frame
-    void Update()
+    public void LoadLoseScene()
     {
+        SceneManager.LoadScene("LoseScreen");
+    }
 
+    public void TryAgain()
+    {
+        SceneManager.LoadScene("StartScreen");
     }
 }

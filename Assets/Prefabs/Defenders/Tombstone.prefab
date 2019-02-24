@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7810657299923317316}
   - component: {fileID: 1161421956989278757}
   - component: {fileID: 6325222480951720860}
+  - component: {fileID: 6289063426755320311}
   m_Layer: 0
   m_Name: Tombstone
   m_TagString: Untagged
@@ -108,6 +109,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 200
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
+--- !u!114 &6289063426755320311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415480443326904208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf7b7dfa537df894dab4fd149319593b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4415480443535138122
 GameObject:
   m_ObjectHideFlags: 0
