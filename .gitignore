@@ -34,7 +34,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-*.meta
 Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
 Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
 Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
