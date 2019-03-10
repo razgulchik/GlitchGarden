@@ -97,7 +97,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.009020567, y: 0.028299093}
+  m_Offset: {x: -0.0074515343, y: 0.009768128}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -108,7 +108,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.761086, y: 0.88218546}
+  m_Size: {x: 0.925807, y: 0.95219207}
   m_EdgeRadius: 0
 --- !u!114 &632860028032150059
 MonoBehaviour:
@@ -164,7 +164,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1720583613072698983}
   - component: {fileID: 5539175399263162837}
-  - component: {fileID: 4444143295409921295}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -234,18 +233,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4444143295409921295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4444143295409921294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6383a295df485864080e4e62127a0c26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gun: {fileID: 1672525425952139476}
-  projectile: {fileID: 3075728865888234015, guid: 04d33da1969f76f459da8d35bca3a35e,
-    type: 3}

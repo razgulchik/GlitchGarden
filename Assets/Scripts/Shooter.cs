@@ -35,21 +35,19 @@ public class Shooter : MonoBehaviour
     {
         if (IsAttackerOnTheLane())
         {
-            Debug.Log("pew pew pew");
             // TODO change animation to attack
             animator.SetBool("isAttacking", true);
         }
         else
         {
-            Debug.Log("Stay still and wait for enimies");
-            //TOD change animation to idle
+            //TODO change animation to idle
             animator.SetBool("isAttacking", false);
         }
     }
 
     private bool IsAttackerOnTheLane()
     {
-        if(myLaneSpawner.transform.childCount <= 0)
+        if (myLaneSpawner.transform.childCount <= 0)
         {
             return false;
         }
@@ -57,7 +55,6 @@ public class Shooter : MonoBehaviour
         {
             return true;
         }
-        
     }
 
     public void Fire()

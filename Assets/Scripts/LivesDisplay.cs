@@ -26,7 +26,7 @@ public class LivesDisplay : MonoBehaviour
         UpdateDisplayHealth();
         if (lives <= 0)
         {
-            FindObjectOfType<SceneLoader>().LoadLoseScene();
+            FindObjectOfType<LevelController>().YouLose();
         }
     }
 }

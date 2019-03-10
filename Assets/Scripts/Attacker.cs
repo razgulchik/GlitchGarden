@@ -9,6 +9,10 @@ public class Attacker : MonoBehaviour
     [SerializeField] float walkSpeed;
     GameObject currentTarget;
 
+    private void Awake()
+    {
+        FindObjectOfType<LevelController>().PlusAttacker();
+    }
 
     void Update()
     {
@@ -44,5 +48,14 @@ public class Attacker : MonoBehaviour
             health.DealDamage(damage);
         }
 
+    }
+
+    private void OnDestroy()
+    {
+        LevelController levelController = FindObjectOfType<LevelController>();
+        if(levelController != null)
+        {
+            levelController.MinusAttacker();
+        }
     }
 }
