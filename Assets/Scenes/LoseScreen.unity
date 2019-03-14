@@ -256,8 +256,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1770078699}
-        m_MethodName: 
+      - m_Target: {fileID: 1770078700}
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -665,12 +665,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbf991fc4c04a534bb89215b25008bc3, type: 3}
---- !u!1 &1770078699 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4140508149275448757, guid: fbf991fc4c04a534bb89215b25008bc3,
+--- !u!114 &1770078700 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1857554100, guid: fbf991fc4c04a534bb89215b25008bc3,
     type: 3}
   m_PrefabInstance: {fileID: 1770078698}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c666f5ef0917a614ab4454f4c05b01c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1884122311
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,8 +797,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1770078699}
-        m_MethodName: 
+      - m_Target: {fileID: 1770078700}
+        m_MethodName: LoadStartScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

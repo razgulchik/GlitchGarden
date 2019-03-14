@@ -48,9 +48,9 @@ public class LevelController : MonoBehaviour
     private void StopSpawners()
     {
         AttackerSpawner[] attackerSpawners = FindObjectsOfType<AttackerSpawner>();
-        foreach(AttackerSpawner aS in attackerSpawners)
+        foreach(AttackerSpawner spawner in attackerSpawners)
         {
-            aS.StopSpawn();
+            spawner.StopSpawn();
         }
     }
 
