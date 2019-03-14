@@ -52,4 +52,9 @@ public class SceneLoader : MonoBehaviour
         Application.Quit();
     }
 
+    public void LoadOptionsScreen()
+    {
+        SceneManager.LoadScene("Options");
+    }
+
 }
