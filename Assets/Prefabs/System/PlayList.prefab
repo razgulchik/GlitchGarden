@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &169807760587537421
+--- !u!1 &3679094689618349663
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 169807760587537419}
-  - component: {fileID: 169807760587537418}
+  - component: {fileID: 1969721136331592333}
+  - component: {fileID: 4106561425097492013}
   m_Layer: 0
-  m_Name: Options Controller
+  m_Name: PlayList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &169807760587537419
+--- !u!4 &1969721136331592333
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169807760587537421}
+  m_GameObject: {fileID: 3679094689618349663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1057.2336, y: 499.8095, z: 24.5}
+  m_LocalPosition: {x: 989.8658, y: 553.70447, z: 22.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &169807760587537418
+--- !u!114 &4106561425097492013
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169807760587537421}
+  m_GameObject: {fileID: 3679094689618349663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5928e973d87e60244a76f0adcc72bc25, type: 3}
+  m_Script: {fileID: 11500000, guid: 50ca659aad30e3b4d82059bed4b919c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeSlider: {fileID: 0}
-  defaultVolume: 0.4
-  difficultySlider: {fileID: 0}
-  defaultDifficulty: 2
+  mp3SplashScreen: {fileID: 8300000, guid: 45f525d0152af3f449b6d69e40c4d576, type: 3}
+  mp3StartMenu: {fileID: 8300000, guid: d6024f581c0b4174caab9b1a99452921, type: 3}
+  mp3Level1: {fileID: 8300000, guid: 71669a390d08b6b449186a8094417798, type: 3}

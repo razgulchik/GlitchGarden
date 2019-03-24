@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class StarsDisplay : MonoBehaviour
 {
-    [SerializeField] int stars = 100;
+    [SerializeField] float stars = 100;
     Text starsText;
 
     void Start()
     {
+        stars = 900 / PlayerPrefs.GetFloat("difficulty");
         starsText = GetComponent<Text>();
         UpdateStarsAmount();
     }
